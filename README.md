@@ -2,7 +2,7 @@
 [![PyPI version](https://badge.fury.io/py/pdftoimg.svg)](https://badge.fury.io/py/pdftoimg)
 
 
-Simple Command Line tool to convert PDF to Image.
+Simple Command Line tool to convert PDF to Image. It is a wrapper of [pdf2image](https://pypi.org/project/pdf2image/).
 
 # How to Install
 `pip install pdftoimg`
