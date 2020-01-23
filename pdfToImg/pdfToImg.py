@@ -15,12 +15,12 @@ def main(argv):
         opts, args = getopt.getopt(
             argv, "hi:o:f:d:g:", ["pdf_path=", "output_folder=", "fmt=", "dpi=", "grayscale="])
     except getopt.GetoptError:
-        print('Usage: pdfToImg -i <pdf_path> -o <output_folder_path> -f <format> -d <dpi> -g <True/False>')
+        print('Usage: pdftoimg -i <pdf_path> -o <output_folder_path> -f <format> -d <dpi> -g <True/False>')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
             print(
-                'Usage: pdfToImg -i <pdf_path> -o <output_folder_path> -f <format> -d <dpi> -g <True/False>')
+                'Usage: pdftoimg -i <pdf_path> -o <output_folder_path> -f <format> -d <dpi> -g <True/False>')
             sys.exit()
         elif opt in ("-i", "--pdf_path"):
             pdf_path = arg.strip()
