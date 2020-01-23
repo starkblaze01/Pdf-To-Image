@@ -1,11 +1,12 @@
 import setuptools
 
+
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="pdftoimg",
-    version="0.0.1",
+    version="0.0.2",
     author="starkblaze01",
     author_email="mp.pathela@gmail.com",
     description="Easily convert PDF to Image from command line",
@@ -24,7 +25,10 @@ setuptools.setup(
         "Operating System :: Unix",
     ],
     entry_points={
-        "console_scripts": ['pdftoimg = pdfToImg.pdfToImg.main']
+        "console_scripts": ['pdftoimg = pdftoimg.pdftoimg:main'],
     },
     python_requires='>=3.6',
+    install_requires=[
+        'pdf2image>=1.11.0',
+    ],
 )
