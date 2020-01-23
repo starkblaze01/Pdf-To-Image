@@ -14,7 +14,7 @@ setuptools.setup(
     url="https://github.com/starkblaze01/Pdf-To-Image",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Development Status :: 0.1 - Beta",
+        "Development Status :: 4 - Beta",
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: Unix",
