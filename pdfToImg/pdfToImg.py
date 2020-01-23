@@ -5,7 +5,8 @@ import sys
 import getopt
 
 
-def main(argv):
+def main():
+    argv = sys.argv[1:]
     pdf_path = ''
     output_folder = None
     fmt = 'jpeg'
@@ -39,7 +40,3 @@ def main(argv):
 
     images_from_path = convert_from_path(
         pdf_path=pdf_path, output_folder=output_folder, fmt=fmt, dpi=dpi, grayscale=grayscale)
-
-
-if __name__ == "__main__":
-    main(sys.argv[1:])
