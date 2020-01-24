@@ -27,3 +27,6 @@ Definitions:
 - -f for image format(Default: jpeg)
 - -d for dpi(Default: 200)
 - -g for grayscale image(Default: False)
+
+## GIF
+![](pdftoimg.gif)
