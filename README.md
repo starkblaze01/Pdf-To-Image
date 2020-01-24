@@ -1,5 +1,5 @@
 # [Pdf-To-Image](https://github.com/starkblaze01/Pdf-To-Image)
-[![PyPI version](https://badge.fury.io/py/pdftoimg.svg)](https://badge.fury.io/py/pdftoimg)
+[![PyPI version](https://badge.fury.io/py/pdftoimg.svg)](https://badge.fury.io/py/pdftoimg) [![Downloads](https://pepy.tech/badge/pdftoimg)](https://pepy.tech/project/pdftoimg)
 
 
 Simple Command Line tool to convert PDF to Image. It is a wrapper of [pdf2image](https://pypi.org/project/pdf2image/).
