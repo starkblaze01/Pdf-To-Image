@@ -6,16 +6,17 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pdftoimg",
-    version="0.0.3",
+    version="0.0.4",
     author="starkblaze01",
     author_email="mp.pathela@gmail.com",
     description="Easily convert PDF to Image from command line",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    license="MIT",
     url="https://github.com/starkblaze01/Pdf-To-Image",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
