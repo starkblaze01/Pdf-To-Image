@@ -15,6 +15,9 @@ Simple Command Line tool to convert PDF to Image. It is a wrapper of [pdf2image]
 - Open terminal.
 - Run `pdftoimg -h` for help.
 
+#### Usage:
+- `pdftoimg -i <pdf_path> -o <output_folder_path> -f <format> -d <dpi> -g <True/False>`
+
 #### Example usage:
 - `pdftoimg -i /Users/starkblaze01/Bova/file_name.pdf -o /Users/starkblaze01/output_folder`
 
