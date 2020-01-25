@@ -29,4 +29,5 @@ Definitions:
 - -g for grayscale image(Default: False)
 
 ## GIF
+Click [here](https://github.com/starkblaze01/Pdf-To-Image/blob/master/pdftoimg.gif)
 ![](pdftoimg.gif)
