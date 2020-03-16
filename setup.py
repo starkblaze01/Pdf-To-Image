@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pdftoimg",
-    version="0.0.5",
+    version="0.1.1",
     author="starkblaze01",
     author_email="mp.pathela@gmail.com",
     description="Easily convert PDF to Image from command line",

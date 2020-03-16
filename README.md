@@ -19,8 +19,14 @@ Simple Command Line tool to convert PDF to Image. It is a wrapper of [pdf2image]
 - `pdftoimg -i <pdf_path> -o <output_folder_path> -f <format> -d <dpi> -g <True/False>`
 
 #### Example usage:
+
+To convert single PDF to image by specifying absolute path:
 - `pdftoimg -i /Users/starkblaze01/Bova/file_name.pdf -o /Users/starkblaze01/output_folder`
 
+To convert multiple PDFs in a directory to images in the sample folder:
+- `pdftoimg -i /Users/starkblaze01/Bova/input_folder -o /Users/starkblaze01/output_folder`
+- **Note:** Using this will convert all the PDFs present in input_folder directory and its sub-directories.
+ 
 Definitions:
 - -i for input pdf_file path
 - -o for output_folder path
@@ -29,5 +35,10 @@ Definitions:
 - -g for grayscale image(Default: False)
 
 ## GIF
-Click [here](https://github.com/starkblaze01/Pdf-To-Image/blob/master/pdftoimg.gif)
-![](pdftoimg.gif)
+Click [here](https://github.com/starkblaze01/Pdf-To-Image/blob/master/GIFs) to see GIF of sample usage.
+
+
+![](GIFs/pdftoimg.gif)
+
+
+![](GIFs/Multiple_PDF.gif)
